@@ -1,0 +1,34 @@
+{
+  "name": "is-google",
+  "version": "1.0.0",
+  "description": "Verify that a request is from Google crawlers using Google's DNS verification steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape ./tests/test.js | tap-spec"
+  },
+  "engines": {
+    "node": ">=6.*.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roccomuso/is-google.git"
+  },
+  "keywords": [
+    "google",
+    "dns",
+    "crawler",
+    "test",
+    "verify",
+    "verification"
+  ],
+  "author": "Rocco Musolino (@roccomuso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roccomuso/is-google/issues"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
