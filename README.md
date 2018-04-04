@@ -1,6 +1,7 @@
 # is-google
 
 [![NPM Version](https://img.shields.io/npm/v/is-google.svg)](https://www.npmjs.com/package/is-google)
+[![Build Status](https://travis-ci.org/roccomuso/is-google.svg?branch=master)](https://travis-ci.org/roccomuso/is-google)
 ![node](https://img.shields.io/node/v/is-google.svg)
 [![Dependency Status](https://david-dm.org/roccomuso/is-google.png)](https://david-dm.org/roccomuso/is-google)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
