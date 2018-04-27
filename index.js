@@ -6,8 +6,8 @@ function isGoogle (ip) {
       if (err) {
         return reject(err)
       }
-      const hostname = domains[0] && domains[0].split('.')[1]
-      if (!['google', 'googlebot'].includes(hostname)) {
+      const hostname = domains[0]
+      if (!(hostname.endsWith('google.com') || hostname.endsWith('googlebot.com'))) {
         return resolve(false)
       }
 
