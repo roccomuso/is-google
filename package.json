@@ -1,6 +1,6 @@
 {
   "name": "is-google",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Verify that a request is from Google crawlers using Google's DNS verification steps",
   "main": "index.js",
   "scripts": {
